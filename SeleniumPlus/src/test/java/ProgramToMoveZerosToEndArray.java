@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ProgramToMoveZerosToEndArray {
 
 	public static void main(String[] args) {
-		// Integer [] arr = {10, 20, 30, 40, 50};
+		
 
 		int arr[] = new int[5];
 		Scanner sc = new Scanner(System.in);
@@ -19,8 +19,7 @@ public class ProgramToMoveZerosToEndArray {
 		for (int i = 0; i < arr.length; i++) {
 			newArray[i] = Integer.valueOf(arr[i]);
 		}
-		// Integer[] newArray = ArrayUtils.toObject(arr);
-
+		
 		Collections.reverse(Arrays.asList(newArray));
 		System.out.println(Arrays.asList(newArray));
 
