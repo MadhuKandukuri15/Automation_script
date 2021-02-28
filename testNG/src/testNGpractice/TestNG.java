@@ -16,6 +16,10 @@ public class TestNG {
 	public void div() {
 		System.out.println("i am last");
 	}
+	@Test
+	public void divq() {
+		System.out.println("i am last");
+	}
 	
 //	@BeforeTest
 //	public void add() {

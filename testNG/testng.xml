@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="testNGpractice.TestNG"/>
-      <class name="testNGpractice.Machina"/>
-    </classes>
-  </test> <!-- Test -->
+	<Listeners>
+		<Listener class-name="testNGpractice.Listeners"/>
+	</Listeners>
+	<parameter name="URL" value="google.com" />
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNGpractice.TestNG" />
+			<class name="testNGpractice.Machina" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
