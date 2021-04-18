@@ -18,6 +18,16 @@ public class Machina {
 	public void add() {
 		System.out.println("i am test 123");
 	}
+	@Test
+	public void add1() {
+		System.out.println("i am test 123");
+	}
+	@Test
+	public void add2() {
+		System.out.println("i am test 123");
+	}
+	
+	
 	@Parameters({"URL"})
 	@Test
 	public void sub(String name) {

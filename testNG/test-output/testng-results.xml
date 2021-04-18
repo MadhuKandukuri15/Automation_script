@@ -1,28 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="91" started-at="2021-02-28T10:13:49 IST" finished-at="2021-02-28T10:13:49 IST">
+  <suite name="Suite" duration-ms="81" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
     <groups>
       <group name="smokes">
-        <method signature="TestNG.disH()[pri:0, instance:testNGpractice.TestNG@1ef968d]" name="disH" class="testNGpractice.TestNG"/>
+        <method signature="TestNG.disH()[pri:0, instance:testNGpractice.TestNG@136e637]" name="disH" class="testNGpractice.TestNG"/>
       </group> <!-- smokes -->
       <group name="smoke">
-        <method signature="Machina.add()[pri:0, instance:testNGpractice.Machina@1e028a9]" name="add" class="testNGpractice.Machina"/>
+        <method signature="Machina.add()[pri:0, instance:testNGpractice.Machina@18486a3]" name="add" class="testNGpractice.Machina"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="91" started-at="2021-02-28T10:13:49 IST" finished-at="2021-02-28T10:13:49 IST">
+    <test name="Test" duration-ms="81" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
       <class name="testNGpractice.TestNG">
-        <test-method status="PASS" signature="disH()[pri:0, instance:testNGpractice.TestNG@1ef968d]" name="disH" duration-ms="12" started-at="2021-02-28T10:13:49 IST" finished-at="2021-02-28T10:13:49 IST">
+        <test-method status="PASS" signature="div()[pri:0, instance:testNGpractice.TestNG@136e637]" name="div" is-config="true" duration-ms="16" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="disH()[pri:0, instance:testNGpractice.TestNG@136e637]" name="disH" duration-ms="16" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disH -->
+        <test-method status="PASS" signature="divq()[pri:0, instance:testNGpractice.TestNG@136e637]" name="divq" duration-ms="0" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divq -->
       </class> <!-- testNGpractice.TestNG -->
       <class name="testNGpractice.Machina">
-        <test-method status="PASS" signature="add()[pri:0, instance:testNGpractice.Machina@1e028a9]" name="add" duration-ms="1" started-at="2021-02-28T10:13:49 IST" finished-at="2021-02-28T10:13:49 IST">
+        <test-method status="PASS" signature="su11b()[pri:0, instance:testNGpractice.Machina@18486a3]" name="su11b" is-config="true" duration-ms="0" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- su11b -->
+        <test-method status="PASS" signature="befoeclass()[pri:0, instance:testNGpractice.Machina@18486a3]" name="befoeclass" is-config="true" duration-ms="0" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befoeclass -->
+        <test-method status="PASS" signature="add()[pri:0, instance:testNGpractice.Machina@18486a3]" name="add" duration-ms="1" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add -->
+        <test-method status="PASS" signature="add1()[pri:0, instance:testNGpractice.Machina@18486a3]" name="add1" duration-ms="1" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add1 -->
+        <test-method status="PASS" signature="add2()[pri:0, instance:testNGpractice.Machina@18486a3]" name="add2" duration-ms="1" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add2 -->
+        <test-method status="PASS" signature="su1b(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.Machina@18486a3]" name="su1b" duration-ms="1" started-at="2021-02-28T21:25:15 IST" data-provider="dataprovider" finished-at="2021-02-28T21:25:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[msd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- su1b -->
+        <test-method status="PASS" signature="sub(java.lang.String)[pri:0, instance:testNGpractice.Machina@18486a3]" name="sub" duration-ms="0" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="su1b(java.lang.String, java.lang.String)[pri:0, instance:testNGpractice.Machina@18486a3]" name="su1b" duration-ms="0" started-at="2021-02-28T21:25:15 IST" data-provider="dataprovider" finished-at="2021-02-28T21:25:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jfsalk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- su1b -->
+        <test-method status="PASS" signature="iv1()[pri:0, instance:testNGpractice.Machina@18486a3]" name="iv1" is-config="true" duration-ms="0" started-at="2021-02-28T21:25:15 IST" finished-at="2021-02-28T21:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iv1 -->
       </class> <!-- testNGpractice.Machina -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
