@@ -1,22 +1,33 @@
 package streams;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
 public class FilterInSearchBox {
 
 	public static void main(String... arg) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\softwares\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\softwares\\chromedriver_win32 (2)\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
-		String cssValue = driver.findElement(By.className("product-action")).getCssValue("color");
-		System.out.println(cssValue);
-		driver.quit();
+		driver.findElement(By.xpath("//div[@class='SDkEP']/div[2]/input")).sendKeys("idiot");
+		driver.findElement(By.xpath("//div[@class='SDkEP']/div[2]/input")).sendKeys(Keys.DOWN);
+		driver.findElement(By.xpath("//div[@class='SDkEP']/div[2]/input")).sendKeys(Keys.ENTER);
+		//drive`r.findElement(By.xpath("//input[contains(@span,'idiot')]")).sendKeys("idiot" + Keys.ENTER);
+		
+
+		
+
+		//driver.findElement(By.xpath("//div[@class='FPdoLc tfB0Bf']/center/input[1]")).click();
+		
+
+//		String cssValue = driver.findElement(By.className("product-action")).getCssValue("color");
+//		System.out.println(cssValue);
+//		driver.quit();
 //		driver.manage().window().maximize();
 //		Thread.sleep(8000);
 //		driver.findElement(By.xpath("//*[@id='i0116']")).click();

@@ -11,7 +11,7 @@ import org.openqa.selenium.logging.LogType;
 public class CaptureConsoleLogs {
 
 	public void console() {
-		System.setProperty("webdriver.chrome.driver", "C:\\softwares\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\softwares\\\\chromedriver_win32 (2)\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/ghsd");
 		driver.manage().window().maximize();
