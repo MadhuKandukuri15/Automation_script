@@ -23,7 +23,7 @@ public class Actionsq {
 		driver.manage().window().maximize();
 		Actions a = new Actions(driver);
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().sendKeys("watches").doubleClick().build().perform();
-		a.moveToElement(driver.findElement(By.id("nav-link-accountList-nav-line-1"))).build().perform();
+		a.moveToElement(driver.findElement(By.id("nav-link-accountList-nav-line-1"))).contextClick().build().perform();
 		
 		//driver.close();
 
