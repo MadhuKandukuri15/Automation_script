@@ -14,7 +14,6 @@ public class Assignment_lect12 {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.id("checkBoxOption2")).click();
 		String text = driver.findElement(By.id("checkBoxOption2")).getAttribute("value");
-
 		text = text.replaceFirst("o", "O");
 		Select s = new Select(driver.findElement(By.id("dropdown-class-example")));
 		s.selectByVisibleText(text);
