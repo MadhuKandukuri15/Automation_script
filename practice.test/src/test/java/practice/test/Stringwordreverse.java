@@ -9,7 +9,7 @@ public class Stringwordreverse {
 		String[] s4 = s3.split(s3);
 
 		for (int i = 0; i < s3.length(); i++) {
-			
+			System.out.print(true);
 		}
 
 	}
